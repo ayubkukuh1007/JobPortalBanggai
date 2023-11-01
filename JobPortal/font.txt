@@ -1,0 +1,2 @@
+- font joblists = robot 600 s normal w 600 size 16px
+- font Leelawadee UI normal 16px
