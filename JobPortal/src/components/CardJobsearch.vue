@@ -17,7 +17,7 @@ export default {
         <div class="flex flex-col justify-center w-10/12 bg-customColor9 rounded-xl shadow-md px-4 gap-2">
             <div class="flex flex-col">
                 <input class="w-full outline-none" type="text" placeholder="Cari Kerjaan">
-                <span class="h-1 w-full bg-customColor10 rounded-sm"></span>
+                <span class="h-px w-full bg-customColor10 rounded-sm"></span>
             </div>
             <div class="flex flex-row justify-between gap-1">
                 <div class="flex flex-col w-full">
@@ -26,7 +26,7 @@ export default {
                         <option value="luwuk">Luwuk</option>
                         <option value="Banggai">Banggai</option>
                     </select>
-                    <span class="h-1 w-full bg-customColor10 rounded-sm"></span>
+                    <span class="h-px w-full bg-customColor10 rounded-sm"></span>
                 </div>
                 <div class="flex flex-col w-full">
                     <select class=" outline-none" name="Lulusan Optional">
@@ -34,7 +34,7 @@ export default {
                         <option value="luwuk">Luwuk</option>
                         <option value="Banggai">Banggai</option>
                     </select>
-                    <span class="h-1 w-full bg-customColor10 rounded-sm"></span>
+                    <span class="h-px w-full bg-customColor10 rounded-sm"></span>
                 </div>
             </div>
             <div class="flex flex-row justify-between">

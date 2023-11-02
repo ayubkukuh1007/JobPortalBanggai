@@ -1,7 +1,8 @@
 <script>
-import { MapIcon, MapPinIcon } from '@heroicons/vue/24/solid';
+import {AcademicCapIcon, BuildingOfficeIcon, ClockIcon, MapIcon, MapPinIcon} from '@heroicons/vue/24/outline';
 export default {
-  components: { MapPinIcon, MapIcon },
+  components: { MapPinIcon, MapIcon,
+    BuildingOfficeIcon, AcademicCapIcon,ClockIcon},
   data(){
     return {
 
@@ -20,25 +21,24 @@ export default {
                 <h3 class=" font-semibold">Teller/Admin</h3>
             </div>
             <img class=" w-full h-24" src="/images/PortalBener4.png">
-            <div class="flex flex-row">
-                <MapPinIcon class="h-6 w-6 text-blue-500 bg-customColor4" />
+            <div class="flex flex-row gap-1">
+                <BuildingOfficeIcon class="h-6 w-6" />
                 <span class=" font-semibold">PT Indofood Indonesia</span>
             </div>
             <span class="h-px w-full bg-customColor10 rounded-sm"></span>
             <div class="flex flex-row justify-between">
-                <div class="flex flex-row">
-                    <MapPinIcon class="h-6 w-6 text-blue-500 bg-customColor4" />
+                <div class="flex flex-row gap-1">
+                    <AcademicCapIcon class="h-6 w-6" />
                     <span>D3</span>
-                    
                 </div>
-                <div class=" flex flex-row">
-                    <MapPinIcon class="h-6 w-6 text-blue-500 bg-customColor4" />
+                <div class=" flex flex-row gap-1">
+                    <ClockIcon class="h-6 w-6" />
                     <span>Fulltime</span>
                 </div>
             </div>
             <span class="h-px w-full bg-customColor10 rounded-sm"></span>
-            <div class="flex flex-row">
-                <MapPinIcon class="h-6 w-6 text-blue-500 bg-customColor4" />
+            <div class="flex flex-row gap-1">
+                <MapPinIcon class="h-6 w-6" />
                 <span>Indonesi</span>
             </div>
         </div> 

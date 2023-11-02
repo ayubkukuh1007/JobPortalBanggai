@@ -2,37 +2,26 @@
   import HeaderAtas from './components/HeaderAtas.vue';
   import HeaderSub from './components/HeaderSub.vue';
   import Cardjobsearch from './components/CardjobSearch.vue';
-  import Recomendition from './components/Recomendition.vue';
   import CardHideefect from './components/CardHideeffect.vue';
-  import CardJobItem from './components/CardJobItem.vue';
-  import CardJobItemList from './components/CardJobItemList.vue';
-  import Latevacancies from './components/Lastvacancies.vue';
   import Footer from './components/Footer.vue';
+  import BurgerNav from "./components/BurgerNav.vue";
+  import {computed} from "vue";
+
+  const isMobile = computed(() => {
+    return screen.width <= 760;
+  });
+
 </script>
 
 <template>
-  <div class="container mx-auto max-w-screen-phone">
-    <HeaderAtas/>
-    <HeaderSub/>
-    <Cardjobsearch/>
-    <!-- tricky position absolute -->
-    <CardHideefect/>
-    <!-- label Job recomendation -->
-    <Recomendition/>
-    <!-- job items -->
-    <div class="flex flex-row items-center h-96 overflow-x-auto gap-4 ">
-      <CardJobItem/>
-      <CardJobItem/>
-      <CardJobItem/>
+    <div class="container mx-auto max-w-screen-phone">
+      <HeaderAtas/>
+      <HeaderSub/>
+      <Cardjobsearch/>
+      <CardHideefect/>
+        <router-view></router-view>
+      <Footer/>
     </div>
-    <Latevacancies/>
-    <div class="flex flex-col gap-4">
-      <CardJobItemList/>
-      <CardJobItemList/>
-      <CardJobItemList/>
-    </div>
-    <Footer/>
-  </div>
 </template>
 
 <style>

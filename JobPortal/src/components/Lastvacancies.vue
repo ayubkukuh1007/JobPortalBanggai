@@ -1,7 +1,5 @@
 <script>
-import { MapIcon, MapPinIcon } from '@heroicons/vue/24/solid';
 export default {
-  components: { MapPinIcon, MapIcon },
   data(){
     return {
 

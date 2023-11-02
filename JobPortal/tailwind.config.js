@@ -12,14 +12,14 @@ export default {
       'customColor6': '#4964E9',
       'customColor7': '#5A6891',
       'customColor8': '#000',
-      'customColor9': '#FFFF',
+      'customColor9': '#FFF',
       'customColor10': '#CAD4DF',
     },
     container: {
       center: true,
     },
     screens: {
-      'phone': '360px',
+      'phone': '640px',
       // => @media (min-width: 640px) { ... }
       'tablet': '640px',
       // => @media (min-width: 640px) { ... }

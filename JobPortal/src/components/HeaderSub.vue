@@ -16,6 +16,7 @@ export default {
     <div class=" max-w-screen-phone portalBanner h-60">
         <div class="flex flex-col mx-5">
             <div class=" mt-4 text-customColor9 font-bold">
+                <span class=" font-light text-xs text-customColor4">Toili Luwuk Banggai</span>
                 <span class=" text-xl block">Portal Lowongan Kerja Area Toili Luwuk & Banggai</span>
                 <span class=" text-sm block font-normal">Temukan loker Terbaru Dibulan [month] [year] dengan mudah. Selengkapnya</span>
             </div>

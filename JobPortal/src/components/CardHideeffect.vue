@@ -13,7 +13,7 @@ export default {
 
 <template>
     <!-- tablet -->
-    <div class="max-w-screen-phone relativ w-full h-24"></div>
+    <div class="max-w-screen-phone relativ w-full h-28"></div>
 </template>
 <style>
 

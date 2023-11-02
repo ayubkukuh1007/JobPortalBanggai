@@ -1,7 +1,9 @@
 <script>
-import { MapIcon, MapPinIcon } from '@heroicons/vue/24/solid';
+import {AcademicCapIcon, BuildingOfficeIcon, ClockIcon, MapIcon, MapPinIcon,CurrencyDollarIcon} from '@heroicons/vue/24/outline';
+
 export default {
-  components: { MapPinIcon, MapIcon },
+  components: { MapPinIcon, MapIcon,
+    BuildingOfficeIcon, AcademicCapIcon,ClockIcon,CurrencyDollarIcon},
   data(){
     return {
 
@@ -23,37 +25,35 @@ export default {
                         <h3 class=" font-semibold">Teller/Admin</h3>
                     </div>                  
                 </div>
-                <div class="flex flex-row">
-                    <MapPinIcon class="h-6 w-6 text-blue-500" />
+                <div class="flex flex-row gap-1">
+                    <ClockIcon class="h-6 w-6"/>
                     <span>hari ini</span>
                 </div> 
             </div>
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-row w-full justify-between">
-                    <div class="flex flex-row">
-                        <MapPinIcon class="h-6 w-6 text-blue-500" />
+                    <div class="flex flex-row gap-1">
+                        <BuildingOfficeIcon class="h-6 w-6" />
                         <span class=" font-semibold">PT. Greenly Lifestyle</span>
                     </div>
-                    <div class="flex flex-row">
-                        <MapPinIcon class="h-6 w-6 text-blue-50" />
-                        <span>Fulltime</span>
+                    <div class="flex flex-row gap-1">
+                        <CurrencyDollarIcon class="h-6 w-6" />
+                        <span>Kompetitif</span>
                     </div>
                 </div>
             </div>
             <span class="h-px w-full bg-customColor10 rounded-sm"></span>
-            <div class="flex flex-row justify-between items-center">
-                <div class="flex flex-row justify-between">
-                    <div class="flex flex-row">
-                        <MapPinIcon class="h-6 w-6 text-blue-500" />
-                        <span>D3</span>
-                    </div>
-                    <div class=" flex flex-row">
-                        <MapPinIcon class="h-6 w-6 text-blue-50" />
-                        <span>Fulltime</span>
-                    </div>
+            <div class="flex flex-row justify-between w-full items-center">
+                <div class="flex flex-row gap-1">
+                    <AcademicCapIcon class="h-6 w-6" />
+                    <span>D3</span>
                 </div>
-                <div class="flex flex-row">
-                    <MapPinIcon class="h-6 w-6 text-blue-500" />
+                <div class=" flex flex-row gap-1">
+                    <ClockIcon class="h-6 w-6" />
+                    <span>Fulltime</span>
+                </div>
+                <div class="flex flex-row gap-1">
+                    <MapPinIcon class="h-6 w-6" />
                     <span>PT Indofood Indonesia</span>
                 </div>
             </div>
