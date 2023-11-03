@@ -6,7 +6,6 @@ import JobRecomend from "../views/JobRecomend.vue";
 const routes = [
     {
         path: '/',
-        redirect : '/job-dashboard',
         component: Dashboard
     },
     {

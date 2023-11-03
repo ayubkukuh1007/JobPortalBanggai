@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" id="97d2557d-9a84-4abd-a2d4-6f4fb987b2e0" port="22" customName="lokertoluba.web.id" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="lokertoluba.web.id" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

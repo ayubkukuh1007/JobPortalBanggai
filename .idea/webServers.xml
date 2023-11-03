@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b36a66c1-d49f-4ef4-a5cc-3c096002fe3e" name="lokertoluba.web.id">
+        <fileTransfer accessType="SFTP" port="22" sshConfigId="97d2557d-9a84-4abd-a2d4-6f4fb987b2e0" sshConfig="lokertoluba.web.id">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4f2ac90f-df22-408e-aeae-8acbf33e0622" name="lokertoluba" url="http://lokertoluba.web.id">
+        <fileTransfer rootFolder="/public_html" host="lokertoluba.web.id" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
