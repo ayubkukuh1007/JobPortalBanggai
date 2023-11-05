@@ -15,6 +15,8 @@ export default {
       'customColor9': '#FFF',
       'customColor10': '#CAD4DF',
       'customColor11': '#4964E9',
+      'customColor12': '#1E90FF',
+      'customColor13': '#FD853A',
     },
     container: {
       center: true,

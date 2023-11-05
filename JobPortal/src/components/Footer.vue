@@ -13,7 +13,7 @@ export default {
 
 <template>
     <!-- tablet -->
-    <div class=" max-w-screen-phone bg-customColor3 mt-4">
+    <div class=" max-w-screen-phone bg-customColor12 mt-4">
         <div class=" flex w-full justify-center items-center">
             <!-- lef logo -->
             <div class="flex flex-col justify-center">

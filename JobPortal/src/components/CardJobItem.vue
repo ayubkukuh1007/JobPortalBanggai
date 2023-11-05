@@ -1,13 +1,35 @@
 <script>
 import {AcademicCapIcon, BuildingOfficeIcon, ClockIcon, MapIcon, MapPinIcon} from '@heroicons/vue/24/outline';
+
 export default {
   components: { MapPinIcon, MapIcon,
     BuildingOfficeIcon, AcademicCapIcon,ClockIcon},
+
   data(){
     return {
-
+      symbols : ['S1','SMP','S2/S3'],
+      dynamicDegree : ''
     }
   },
+  methods : {
+    changer: function() {
+      let a = 0
+      let b = []
+      setInterval(()=>{
+        b[a] = this.symbols[a]
+        if (a === 3){
+          a = 0
+        }
+        console.log(b[a])
+        this.dynamicDegree = b[a]
+        a++
+        //console.log(b[a])
+      }, 3000);
+    }
+  },
+  mounted() {
+    this.changer()
+  }
 }
 
 </script>
@@ -16,8 +38,8 @@ export default {
     <!-- tablet -->
     <div>  
         <div class="flex flex-col w-52 h-80 bg-customColor9 rounded-xl shadow-md p-4 customfont gap-1">
-            <div class="flex flex-col">
-                <span>Dibutuhkan</span>
+            <div class="flex flex-col items-start">
+                <span class="block">Dibutuhkan</span>
                 <h3 class=" font-semibold">Teller/Admin</h3>
             </div>
             <img class=" w-full h-24" src="/images/PortalBener4.png">
@@ -29,7 +51,7 @@ export default {
             <div class="flex flex-row justify-between">
                 <div class="flex flex-row gap-1">
                     <AcademicCapIcon class="h-6 w-6" />
-                    <span>D3</span>
+                    <span >{{this.dynamicDegree}}</span>
                 </div>
                 <div class=" flex flex-row gap-1">
                     <ClockIcon class="h-6 w-6" />

@@ -17,7 +17,7 @@ export default {
         <div class="flex flex-col mx-5">
             <div class=" mt-4 text-customColor9 font-bold">
                 <span class=" font-light text-xs text-customColor9">Toili Luwuk Banggai</span>
-                <span class=" text-xl block"><span>Portal Lowongan Kerja</span>Area Toili Luwuk & Banggai</span>
+                <span class=" text-xl block">Portal Lowongan Kerja Area Toili Luwuk & Banggai</span>
                 <span class=" text-sm block font-normal">Temukan loker Terbaru Dibulan [month] [year] dengan mudah. Selengkapnya</span>
             </div>
         </div>

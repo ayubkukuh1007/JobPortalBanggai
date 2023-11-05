@@ -52,8 +52,8 @@ export default {
                 </div>
             </div>
             <div>
-                <button class=" w-full p-2 rounded-md text-customColor9 bg-customColor6">Terapkan Pencarian</button>
-            </div> 
+                <button class=" w-full p-2 rounded-md text-customColor9 bg-customColor12">Terapkan Pencarian</button>
+            </div>
         </div> 
     </div>
 </template>
