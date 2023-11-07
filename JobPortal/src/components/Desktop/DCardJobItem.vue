@@ -36,15 +36,15 @@ export default {
 <template>
     <!-- tablet -->
     <div>  
-        <div class="flex flex-col w-52 h-80 bg-customColor9 rounded-xl shadow-md p-4 customfont gap-1">
+        <div class="flex flex-col w-60 h-80 bg-customColor9 rounded-xl shadow-md p-4 customfont gap-2">
             <div class="flex flex-col items-start">
                 <span class="block">Dibutuhkan</span>
                 <h3 class=" font-semibold">Teller/Admin</h3>
             </div>
-            <img class=" w-full h-24" src="/images/PortalBener4.png">
+            <img class=" w-full h-32" src="/images/PortalBener4.png" alt="#">
             <div class="flex flex-row gap-1">
                 <BuildingOfficeIcon class="h-6 w-6" />
-                <span class=" font-semibold">PT Indofood Indonesia</span>
+                <span class="font-thin">PT Indofood Indonesia</span>
             </div>
             <span class="h-px w-full bg-customColor10 rounded-sm"></span>
             <div class="flex flex-row justify-between">
@@ -60,7 +60,7 @@ export default {
             <span class="h-px w-full bg-customColor10 rounded-sm"></span>
             <div class="flex flex-row gap-1">
                 <MapPinIcon class="h-6 w-6" />
-                <span>Indonesi</span>
+                <span>Indonesia</span>
             </div>
         </div> 
     </div>

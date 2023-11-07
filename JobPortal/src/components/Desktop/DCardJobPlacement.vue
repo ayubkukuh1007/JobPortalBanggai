@@ -22,7 +22,7 @@
 </script>
 
 <template>
-    <div v-show="isHidden" class="flex absolute w-full justify-center max-w-screen-phone mx-auto m-5 popup">
+    <div v-show="isHidden" class="flex absolute w-full justify-center max-w-screen-desktop mx-auto m-5 popup">
         <div class="flex flex-col justify-center w-10/12 bg-customColor9 rounded shadow-md px-4 gap-2">
             <div @click="closePlacementEvent" class="flex justify-center self-end bg-customColor13 w-8 h-8 translate-x-4 rounded-bl-full cursor-pointer">
               <span class="font-semibold text-customColor9 align-middle">x</span>

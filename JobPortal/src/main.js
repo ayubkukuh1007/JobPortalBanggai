@@ -12,6 +12,7 @@ import {faList} from "@fortawesome/free-solid-svg-icons";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons";
 import {faGooglePlay} from "@fortawesome/free-brands-svg-icons";
+import {faFileLines} from "@fortawesome/free-regular-svg-icons";
 
 library.add(faInstagram,
     faFacebookSquare,
@@ -21,7 +22,7 @@ library.add(faInstagram,
     faGooglePlay,
     faBars,
     faList,
-
+    faFileLines
 )
 createApp(App)
     .use(router)
