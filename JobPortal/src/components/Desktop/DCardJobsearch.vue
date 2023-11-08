@@ -62,9 +62,4 @@ export default {
     </div>
 </template>
 <style>
-
-.portalBanner {
-    background: url("/images/PortalBener.png") no-repeat center center;
-    font-family: "Roboto", sans-serif;
-}
 </style>

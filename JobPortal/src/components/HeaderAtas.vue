@@ -26,14 +26,14 @@ export default {
 
 <template>
     <!-- tablet -->
-    <div class=" max-w-screen-phone bg-customColor12 sticky top-0 z-10">
+    <div class=" max-w-screen-phone bg-customColor14 sticky top-0 z-10">
         <div class=" flex h-12 items-center mx-5 justify-between">
             <!-- lef logo -->
-            <div class="flex-none w-36 h-6">
-              <router-link to="/">
-                <span class="text-customColor9 font-semibold p-1">LOKER TOLUBA</span>
-              </router-link>
-            </div>
+          <div class="flex-none h-full">
+            <router-link to="/">
+              <img src=/images/logo.png alt="#">
+            </router-link>
+          </div>
             <!-- right menus -->
             <div class="flex flex-row items-center gap-1">
                 <div class=" flex-none">

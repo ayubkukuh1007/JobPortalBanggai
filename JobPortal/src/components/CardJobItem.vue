@@ -4,11 +4,14 @@ import {AcademicCapIcon, BuildingOfficeIcon, ClockIcon, MapIcon, MapPinIcon} fro
 export default {
   components: { MapPinIcon, MapIcon,
     BuildingOfficeIcon, AcademicCapIcon,ClockIcon},
-
+  props : {
+    imageLink : String
+  },
   data(){
     return {
       symbols : ['S1','SMP','S2/S3'],
-      dynamicDegree : ''
+      dynamicDegree : '',
+      propsImagelink : ''
     }
   },
   methods : {
@@ -41,7 +44,7 @@ export default {
                 <span class="block">Dibutuhkan</span>
                 <h3 class=" font-semibold">Teller/Admin</h3>
             </div>
-            <img class=" w-full h-24" src="/images/PortalBener4.png">
+            <img class=" w-full h-32" :src="imageLink" alt="/images/PortalBener.svg">
             <div class="flex flex-row gap-1">
                 <BuildingOfficeIcon class="h-6 w-6" />
                 <span class=" font-semibold">PT Indofood Indonesia</span>

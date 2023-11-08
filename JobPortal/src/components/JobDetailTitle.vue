@@ -10,7 +10,7 @@ export default {
         <div><span class="text-xl">Panti Sehat ibu Boroto/Ibu Anna</span></div>
         <div><span class="font-thin">membuka lowongan</span></div>
       </div>
-      <img class=" w-24 h-20 " src="/images/PortalBener4.png" alt="">
+      <img class=" w-24 h-20 " src="/images/PortalBener.svg" alt="">
     </div>
     <h1 class=" font-semibold text-2xl">Tenaga Ahli Urut/ Terapis Untuk Kesehatan</h1>
     <span class="h-px w-full bg-customColor10 rounded-sm"></span>

@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-  <div class="flex flex-col mx-5 gap-3">
+  <div class="flex flex-col mx-20 gap-3">
     <div class=" flex flex-row justify-between items-center">
       <div class="flex flex-col">
         <div><span class="text-xl">Panti Sehat ibu Boroto/Ibu Anna</span></div>

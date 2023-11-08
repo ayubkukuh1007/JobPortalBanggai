@@ -12,7 +12,7 @@ export default defineComponent({
 
 </script>
 <template>
-  <div class="flex flex-col justify-between mx-5 gap-3">
+  <div class="flex flex-col justify-between mx-20 gap-3">
     <h2 class=" text-xl font-semibold">Ringkasan</h2>
     <!-- pendidikan -->
     <div class=" grid grid-cols-2 gap-2">

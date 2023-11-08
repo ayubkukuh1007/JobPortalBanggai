@@ -19,7 +19,7 @@ export default {
         <div class="flex flex-col w-full bg-customColor9 rounded-xl shadow-md p-4 customfont gap-2">
             <div class="flex flex-row justify-between items-stretch">
                 <div class="flex flex-row justify-between items-stretch gap-2">
-                    <img class=" block self-center w-10 h-10 overflow-hidden" src="/images/PortalBener4.png" alt="#">
+                    <img class=" block self-center w-10 h-10 overflow-hidden" src="/images/PortalBener.svg" alt="#">
                     <div class="flex flex-col">
                         <span>Dibutuhkan</span>
                         <h3 class=" font-semibold">Teller/Admin</h3>

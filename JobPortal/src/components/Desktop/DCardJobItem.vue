@@ -4,11 +4,13 @@ import {AcademicCapIcon, BuildingOfficeIcon, ClockIcon, MapIcon, MapPinIcon} fro
 export default {
   components: { MapPinIcon, MapIcon,
     BuildingOfficeIcon, AcademicCapIcon,ClockIcon},
-
+  props : {
+    imageLink : String
+  },
   data(){
     return {
       symbols : ['S1','SMP','S2/S3'],
-      dynamicDegree : ''
+      dynamicDegree : '',
     }
   },
   methods : {
@@ -23,7 +25,7 @@ export default {
         this.dynamicDegree = b[a]
         a++
         //console.log(b[a])
-      }, 3000);
+      }, 4000);
     }
   },
   mounted() {
@@ -36,12 +38,12 @@ export default {
 <template>
     <!-- tablet -->
     <div>  
-        <div class="flex flex-col w-60 h-80 bg-customColor9 rounded-xl shadow-md p-4 customfont gap-2">
+        <div class="flex flex-col w-60 h-80 bg-customColor9 rounded-xl shadow-md p-4 fontStyle gap-2">
             <div class="flex flex-col items-start">
                 <span class="block">Dibutuhkan</span>
-                <h3 class=" font-semibold">Teller/Admin</h3>
+                <h3 class=" font-semibold text-xl">House Keeper</h3>
             </div>
-            <img class=" w-full h-32" src="/images/PortalBener4.png" alt="#">
+            <img class=" w-full h-32" :src="imageLink" alt="/images/PortalBener.svg">
             <div class="flex flex-row gap-1">
                 <BuildingOfficeIcon class="h-6 w-6" />
                 <span class="font-thin">PT Indofood Indonesia</span>
@@ -66,7 +68,7 @@ export default {
     </div>
 </template>
 <style scoped>
-.customfont {
+.fontStyle{
   font-family: "Roboto", sans-serif;
 }
 </style>
